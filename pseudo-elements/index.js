@@ -1,5 +1,4 @@
 const element = document.querySelector('.pseudo-parent')
-const getContent = (el) => window.getComputedStyle(el, ':before').getPropertyValue('content')
 
 let counter = 0
 const emoji = ['🙂', '😬', '🤔', '🥴']
