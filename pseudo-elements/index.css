@@ -1,0 +1,3 @@
+.pseudo-parent::before {
+  content: attr(data-before-content) " ";
+}
